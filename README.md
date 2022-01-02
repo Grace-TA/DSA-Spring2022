@@ -1,4 +1,4 @@
-# DataStructure2022
+# Data Structure and Algorithm
 
 ## Development for VNU CSIE Education
 
