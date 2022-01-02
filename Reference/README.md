@@ -20,6 +20,6 @@
 <div align="center">
      <img 
       src="https://user-images.githubusercontent.com/89304181/147871534-460590d2-7fc8-44d9-8c8d-9a65a54ca7b5.png" 
-      width="50%" height="50%">
+      width="77%" height="77%">
     </div>
     
