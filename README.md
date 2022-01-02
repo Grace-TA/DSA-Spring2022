@@ -6,7 +6,7 @@
 
 https://www.notion.so/c307984d6b8e41f4a3c71beab4d03840
 
-## Colab
+## Google Drive & Colab
 
 https://drive.google.com/drive/u/1/folders/19O4Xs5cT3IjcUUZ-nhMa8J_631YbHLRs
 
