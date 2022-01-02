@@ -1,4 +1,4 @@
-# Reference Book for This Course
+# Text Book for This Course
 
 ## Book Name: "演算法：最強彩色圖鑑 + Python程式實作 王者歸來(第二版)", [link](https://deepmind.com.tw/product/%e6%bc%94%e7%ae%97%e6%b3%95%ef%bc%9a%e6%9c%80%e5%bc%b7%e5%bd%a9%e8%89%b2%e5%9c%96%e9%91%91-python%e7%a8%8b%e5%bc%8f%e5%af%a6%e4%bd%9c-%e7%8e%8b%e8%80%85%e6%ad%b8%e4%be%86%e7%ac%ac%e4%ba%8c/)
 
