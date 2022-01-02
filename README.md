@@ -1,6 +1,6 @@
 # Data Structure and Algorithm
 
-## Development for VNU CSIE Education
+## Development for Spring 2022, VNU CSIE
 
 ## Course Link
 
