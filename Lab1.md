@@ -15,3 +15,8 @@
 
 
 ### 3.「資料結構」與「演算法」到底是什麼？
+
+## Lab1-3 在你的Google Drive, 建立你的第一個Colab Notebook
+
+![image](https://user-images.githubusercontent.com/89304181/155869514-6072d7a4-d272-45ce-adc1-ad08e30cfc88.png)
+
