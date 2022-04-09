@@ -2,9 +2,9 @@
 
 ## Development for Spring 2022, VNU CSIE
 
-## Course Link
+## 上課用書
 
-https://www.notion.so/c307984d6b8e41f4a3c71beab4d03840
+[演算法：最強彩色圖鑑 + Python程式實作 王者歸來(第二版)](https://www.books.com.tw/products/0010880939?loc=P_0003_001)
 
 ## Google Drive & Colab
 
