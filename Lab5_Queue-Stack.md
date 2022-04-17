@@ -23,11 +23,25 @@
 
 ## Lab 5-3 Queue & Stack 實戰
 
-### Queue: 請參考Queue Python實作程式, 完成你的Python程式, 並輸出結果 
+### 實戰1 & 2 - Queue: 請參考Queue Python實作程式, 完成你的Python程式, 並輸出結果 
+
+### 實戰1
+
+![image](https://user-images.githubusercontent.com/89304181/163702967-91748c86-6cbf-44bd-a7fe-6cad3e4d9904.png)
+
+### 實戰2
+
+![image](https://user-images.githubusercontent.com/89304181/163703056-545c5bb6-d9b4-4d6b-854f-e10535bd8dca.png)
 
 
+### 實戰1 & 2 - Stack: 請參考Stack Python實作程式, 完成你的Python程式, 並輸出結果
 
-### Stack: 請參考Stack Python實作程式, 完成你的Python程式, 並輸出結果
+### 實戰3
+
+![image](https://user-images.githubusercontent.com/89304181/163703081-00170e23-6a05-49d1-b192-f6af15b62981.png)
+
+### 實戰4
 
 ![image](https://user-images.githubusercontent.com/89304181/161893968-e52917d1-2613-4c24-a26b-5a4bd81f0873.png)
 
+![image](https://user-images.githubusercontent.com/89304181/163703112-c14237c5-4006-4bbf-8ad5-6a95fec09699.png)
