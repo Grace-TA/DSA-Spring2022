@@ -1,6 +1,6 @@
-# Lab5: Queue (堆疊)? Stack (佇列)?
+# Lab5: Queue (佇列)? Stack (堆疊)?
 
-## Lab 5-1 Queue (堆疊): 請用Google找一張圖來說明什麼是Queue? 試舉生活的例子來說明. Thanks!
+## Lab 5-1 Queue (佇列): 請用Google找一張圖來說明什麼是Queue? 試舉生活的例子來說明. Thanks!
 
 ### 說明: FIFO
 
@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/89304181/161891564-5557ccc8-e82d-497d-a140-f305289df27b.png)
 
 
-## Lab 5-2 Stack (佇列): 請用Google找一張圖來說明什麼是Stack? 試舉生活的例子來說明. Thanks!
+## Lab 5-2 Stack (堆疊): 請用Google找一張圖來說明什麼是Stack? 試舉生活的例子來說明. Thanks!
 
 ### 說明: LIFO
 
