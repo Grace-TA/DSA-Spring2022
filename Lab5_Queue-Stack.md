@@ -29,7 +29,5 @@
 
 ### Stack: 請參考Stack Python實作程式, 完成你的Python程式, 並輸出結果
 
-![image](https://user-images.githubusercontent.com/89304181/161894696-e85238f5-c021-43e9-99a2-282683896464.png)
-
 ![image](https://user-images.githubusercontent.com/89304181/161893968-e52917d1-2613-4c24-a26b-5a4bd81f0873.png)
 
