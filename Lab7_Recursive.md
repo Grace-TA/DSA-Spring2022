@@ -10,7 +10,8 @@ Ans: 在解決問題時，我們經常會遇到無法輕鬆使用 loop 或是 if
 
 ### 3. 參考程式今日介紹的程式 (R100, R110, R120), 完成1+2+...+30的加法練習
 
-![image](https://user-images.githubusercontent.com/89304181/172032950-9794fca1-7dda-44d5-9a8e-82d1b0edbfcd.png)
+![image](https://user-images.githubusercontent.com/89304181/172033102-d0af25e1-bf14-44c3-b823-0b17dda82518.png)
 
-![image](https://user-images.githubusercontent.com/89304181/172032958-c31a1bdc-a55e-4407-b384-5865f407708b.png)
+![image](https://user-images.githubusercontent.com/89304181/172033114-c1c27864-b830-404d-b865-ca50f29f5734.png)
+
 
