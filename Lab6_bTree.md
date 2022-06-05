@@ -36,14 +36,17 @@ The error is cuased by the initial defintion of binary tree size; thus, we can c
 
 ## 8. 如何使用10, 5, 21, 9, 13, 28, 3, 4, 1, 17, 32數字建立二元樹, 並使用中序列印, 並計算此二元樹的深度(i.e., 層數) ?
 
-![image](https://user-images.githubusercontent.com/89304181/172034547-77aa32f8-deb7-4a41-8c66-e9473a6e15d4.png)
+![image](https://user-images.githubusercontent.com/89304181/172036814-997ad3ac-3116-4fae-a7c5-820482e6e12c.png)
+
 
 ## 9. 如何使用10, 5, 21, 9, 13, 28, 3, 4, 1, 17, 32數字建立二元樹, 並使用前序列印, 並計算此二元樹的深度(i.e., 層數) ?
 
-![image](https://user-images.githubusercontent.com/89304181/172034671-2ae1aa05-3547-4e0c-8b71-bf1d8b8cc182.png)
+![image](https://user-images.githubusercontent.com/89304181/172036826-66de5126-96d8-4caf-84c4-b4f0a613c68d.png)
+
 
 ## 10. 如何使用10, 5, 21, 9, 13, 28, 3, 4, 1, 17, 32數字建立二元樹, 並使用後序列印, 並計算此二元樹的深度(i.e., 層數) ?
 
-![image](https://user-images.githubusercontent.com/89304181/172034688-f55a40d8-f6d6-4d4d-83b2-d89af977a60a.png)
+![image](https://user-images.githubusercontent.com/89304181/172036848-acd51af7-59ea-48d8-9337-933f60d12f34.png)
+
 
 
