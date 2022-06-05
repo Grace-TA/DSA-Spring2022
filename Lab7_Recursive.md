@@ -12,6 +12,7 @@ Ans: 在解決問題時，我們經常會遇到無法輕鬆使用 loop 或是 if
 
 ![image](https://user-images.githubusercontent.com/89304181/172033102-d0af25e1-bf14-44c3-b823-0b17dda82518.png)
 
-![image](https://user-images.githubusercontent.com/89304181/172033114-c1c27864-b830-404d-b865-ca50f29f5734.png)
+![image](https://user-images.githubusercontent.com/89304181/172033159-dbaf3f4b-8437-4f7a-9e9c-a3fc1f7d3fe4.png)
+
 
 
