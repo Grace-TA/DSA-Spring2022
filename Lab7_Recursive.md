@@ -8,11 +8,9 @@
 
 [Lab 7-1 什麼是遞迴 (What Is Recursion) ?](#111)
 
-[Lab 7-2 Lab 7-2 遞迴圖形 (e.g., Fractal in Nature)](#112)
+[Lab 7-2 遞迴圖形 (e.g., Fractal in Nature)](#112)
 
-[Lab 7-2 Lab 7-2 遞迴圖形 (e.g., Fractal in Nature)](#113)
-
-[Lab 7-3 遞迴經典應用](#103)
+[Lab 7-3 遞迴經典應用](#113)
 
 ---
 <a name="111"/>
