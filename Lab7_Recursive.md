@@ -31,6 +31,7 @@ Ans: 在解決問題時，我們經常會遇到無法輕鬆使用 loop 或是 if
 [return to content](#000) 
 
 <a name="112"/>
+
 ## Lab 7-2 Lab 7-2 遞迴圖形 (e.g., Fractal in Nature)
 
 ### 1. Add (3,1), (4,0), (5,1)
@@ -93,6 +94,7 @@ plot_coords(turtle_to_coords(transform_multiple('L', {
 [return to content](#000) 
 
 <a name="113"/>
+
 ## Lab 7-3 遞迴經典應用
 
 Undergoing ...
