@@ -32,7 +32,7 @@ Ans: 在解決問題時，我們經常會遇到無法輕鬆使用 loop 或是 if
 
 <a name="112"/>
 
-## Lab 7-2 Lab 7-2 遞迴圖形 (e.g., Fractal in Nature)
+## Lab 7-2 遞迴圖形 (e.g., Fractal in Nature)
 
 ### 1. Add (3,1), (4,0), (5,1)
 ![image](https://user-images.githubusercontent.com/89304181/173219532-e8582a22-cae1-41cf-ba44-d0b7e5db7ed4.png)
