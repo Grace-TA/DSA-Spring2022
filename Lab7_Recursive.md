@@ -97,7 +97,53 @@ plot_coords(turtle_to_coords(transform_multiple('L', {
 
 ## Lab 7-3 遞迴經典應用
 
-Undergoing ...
+### 1. 試說明費波納契(Fibonacci)數列, 以及Python實作的參考作法?
+Ans: 費波納契(Fibonacci)數列，此數列的公式如下：
+    fib(0) = 0
+    fib(1) = 1
+    fib(n) = fib(n-1) + fib(n-2) 		n >= 2
+
+thus, 費波納契(Fibonacci)數列 = [1, 1, 2, 3, 5, 8, 13, 21, ...]     
+
+![image](https://user-images.githubusercontent.com/89304181/174704153-f757916e-6d90-45ae-a7bf-31cad57ee66a.png)
+
+### 2. 試說明河內塔演算法, 以及Python實作的參考作法 (6圓盤)?
+Ans: 移動規則如下：
+    1：每次只能移動一個圓盤。
+    2：只能移動最上方的圓盤。
+    3：必須保持小的圓盤在大的圓盤上方。
+
+![image](https://user-images.githubusercontent.com/89304181/174704415-e7c26353-5834-4072-9989-2b70c8a8b9f1.png)
+
+### 3. 試說明碎形(fractal)是什麼以及實例? Python實作的參考作法?
+Ans: 碎形，又稱分形、殘形，通常被定義為「一個粗糙或零碎的幾何形狀，可以分成數個部分，且每一部分都是整體縮小後的形狀」，即具有自相似的性質。 碎形在數學中是一種抽象的物體，用於描述自然界中存在的事物。人工碎形通常在放大後能展現出相似的形狀。
+
+![image](https://user-images.githubusercontent.com/89304181/174704639-c0a0fb25-b5ae-4119-acb2-3cdd66a5ff26.png)
+
+````
+from fractal import IFS
+
+code = [
+    [0.195, -0.488, 0.344, 0.443, 0.4431, 0.2452, 0.2],
+    [0.462, 0.414, -0.252, 0.361, 0.2511, 0.5692, 0.2],
+    [-0.637, 0, 0, 0.501, 0.8562, 0.2512, 0.2],
+    [-0.035, 0.07, -0.469, 0.022, 0.4884, 0.5069, 0.2],
+    [-0.058, -0.07, -0.453, -0.111, 0.5976, 0.0969, 0.2]
+]
+
+ifs = IFS([500,500])
+ifs.setCoordinate()
+ifs.setPx(500, 0, 0)
+ifs.setIfsCode(code)
+ifs.doIFS(200000)
+ifs.wait()
+
+````
+![image](https://user-images.githubusercontent.com/89304181/174705338-4d9c8569-c55a-4bd0-a801-bdb55efc2d7c.png)
+
+Reference: [Draw Fractal Image By Python](https://github.com/Grace-TA/fractal)
+
+
 
 
 [return to content](#000) 
