@@ -84,8 +84,78 @@ print("排序結果 : ", sort_h)
 
 ### 2.5 Quick Sort (快速排序)
 
+````python
+import random
+
+def quick_sort(nLst):
+    ''' 快速排序法 '''
+    if len(nLst) <= 1:
+        return nLst
+
+    left = []                           # 左邊串列
+    right= []                           # 右邊串列
+    piv = []                            # 基準串列
+    pivot = random.choice(nLst)         # 隨機設定基準
+    print('pivolt result:', pivot)
+    for val in nLst:                    # 分類
+        if val == pivot:
+            piv.append(val)             # 加入基準串列
+        elif val < pivot:               # 如果小於基準
+            left.append(val)            # 加入左邊串列
+        else:
+            right.append(val)           # 加入右邊串列
+    return quick_sort(left) + piv + quick_sort(right)
+        
+data = [6, 1, 5, 7, 3, 9, 4, 2, 8] 
+print("原始串列 : ", data)
+print("排序結果 : ", quick_sort(data))
+
+````
+
+<img width="219" alt="image" src="https://user-images.githubusercontent.com/89304181/176989958-9dc09ad7-a2af-4320-9475-95624d3008f9.png">
+
 
 ### 2.6 Merge Sort (合併排序法)
+
+````python
+def merge(left, right):
+    ''' 兩數列合併 '''
+    output = []
+    while left and right:
+        if left[0] <= right[0]:
+            output.append(left.pop(0))
+        else:
+            output.append(right.pop(0))
+    if left:
+        output += left
+    if right:
+        output += right
+
+    print('left, right, oupt =', left, right, output)    
+    return output
+
+def merge_sort(nLst):
+    ''' 合併排序 '''
+    if len(nLst) <= 1:                      # 剩下一個或0個元素直接返回
+        return nLst    
+    mid = len(nLst) // 2                    # 取中間索引
+    print('len(nLst) // 2 = ', mid, nLst[:mid], nLst[mid:] )
+    # 切割(divide)數列
+    left = nLst[:mid]                       # 取左半段
+    right = nLst[mid:]                      # 取右半段
+    # 處理左序列和右邊序列
+    left = merge_sort(left)                 # 左邊排序
+    right = merge_sort(right)               # 右邊排序
+    # 遞迴執行合併
+    return merge(left, right)               # 傳回合併
+
+data = [6, 1, 5, 7, 3, 9, 4] 
+print("原始串列 : ", data)
+print("排序結果 : ", merge_sort(data))
+
+````
+
+<img width="220" alt="image" src="https://user-images.githubusercontent.com/89304181/176990200-1497547a-b97b-4135-aea3-10c431e89920.png">
 
 
 ## 3. 試說明什麼是搜尋 (Search)?
