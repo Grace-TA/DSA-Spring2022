@@ -2,14 +2,11 @@
 
 ## 1. 試說明什麼是排序 (Sorts)? 為什麼要學排序?
 
-
-
-
 ## 2. 請執行課程中介紹六種排序法的Python程式並試著說明其方法與結果. (每個方法只要選一支來說明即可.)
 
 ### 2.1 泡泡排序 (Bubble Sort) → 起手式! → 由左到右PK
 
-### A. Use 2 for loop
+### A. Use 2 for loops
 
 <img width="409" alt="image" src="https://user-images.githubusercontent.com/89304181/176988410-758332b5-88c2-42fa-b802-ac88411bb274.png">
 
@@ -25,7 +22,7 @@
 
 <img width="412" alt="image" src="https://user-images.githubusercontent.com/89304181/176989340-434bd802-b270-423e-9890-4baf2b1880a6.png">
 
-### 2.4 Heap Sort (堆積排序法)
+### 2.4 Heap Sort (堆積排序法) → 
 
 ````python
 # ch9_9.py
@@ -82,7 +79,7 @@ print("排序結果 : ", sort_h)
 ````
 <img width="333" alt="image" src="https://user-images.githubusercontent.com/89304181/176989672-610f15a4-3e55-4d73-8331-b88c7f2c5824.png">
 
-### 2.5 Quick Sort (快速排序)
+### 2.5 Quick Sort (快速排序) → recursive
 
 ````python
 import random
@@ -115,7 +112,7 @@ print("排序結果 : ", quick_sort(data))
 <img width="219" alt="image" src="https://user-images.githubusercontent.com/89304181/176989958-9dc09ad7-a2af-4320-9475-95624d3008f9.png">
 
 
-### 2.6 Merge Sort (合併排序法)
+### 2.6 Merge Sort (合併排序法) → recursive
 
 ````python
 def merge(left, right):
