@@ -22,7 +22,7 @@
 
 <img width="412" alt="image" src="https://user-images.githubusercontent.com/89304181/176989340-434bd802-b270-423e-9890-4baf2b1880a6.png">
 
-### 2.4 Heap Sort (堆積排序法) → 
+### 2.4 Heap Sort (堆積排序法) → tree
 
 ````python
 # ch9_9.py
