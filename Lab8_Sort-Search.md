@@ -170,6 +170,9 @@ print("排序結果 : ", merge_sort(data))
 
 ## 3. 試說明什麼是搜尋 (Search)? Plan
 
+![image](https://user-images.githubusercontent.com/89304181/176993084-59d63192-e624-43b2-8530-309e2a9c5686.png)
+
+
 ## 4. 請執行課程中介紹二種搜尋法的Python程式並試著說明其方法與結果. (每個方法只要選一支來說明即可.)
 
 ## 4.1 順序搜尋法:
