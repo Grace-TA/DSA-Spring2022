@@ -288,10 +288,90 @@ else:
 
 data = [99, 22, 10, 30, 90, 77, 65, 1, 88]
 
+````python
+data = [99, 22, 10, 30, 90, 77, 65, 1, 88]
+
+def minvalue(nLst):
+  minval = 9e99 # initial value of minval
+  for i in nLst:
+    if i < minval:
+      minval = i
+      print('Get a smaller value, %d' % i)
+  return minval
+
+print('List內的最小值 = %d' % minvalue(data))
+
+''' Output Result
+Get a smaller value, 99
+Get a smaller value, 22
+Get a smaller value, 10
+Get a smaller value, 1
+List內的最小值 = 1
+'''
+````
+
+
+
 ### Q2: 請同學寫一個程式, 用二分搜尋法來自動找到以下List內的最小值,並回傳完成搜尋所需的步數
 
 data = [99, 22, 10, 30, 90, 77, 65, 1, 88]
 
+````python
+def binary_search(nLst):
+    print("列印搜尋串列 : ",nLst)
+    low = 0                     # 串列的最小索引
+    high = len(nLst) - 1        # 串列的最大索引
+    middle = int((high + low) / 2)  # 中間索引
+    times = 0                   # 搜尋次數
+    while True:
+        times += 1
+        print('No.%d: L%d:%d M%d:%d: , H%d:%d' % (times, low,nLst[low], middle,nLst[middle], high, nLst[high]))
+
+        if key == nLst[middle]: # 表示找到了
+            rtn = middle
+            break
+        elif key > nLst[middle]:
+            low = middle + 1    # 下一次往右邊搜尋
+        else:
+            high = middle - 1   # 下依次往左邊搜尋
+        middle = int((high + low) / 2)  # 更新中間索引
+        if low > high:          # 所有元素比較結束
+            rtn = -1
+            break
+    return rtn, times
+
+data = [99, 22, 10, 30, 90, 77, 65, 1, 88]
+
+print('1. Original data: ', data)
+sorted_data = sorted(data)      # 排序串列
+print('2. Sorted data: ', sorted_data)
+
+key = sorted_data[0] # Obtain the min value from sorted data
+
+print('3. Binary serach start ...')
+index, times = binary_search(sorted_data)
+if index != -1:
+    print("4. 在索引 %d 位置找到了,共找了 %d 次" % (index, times))
+
+''' Output Result
+1. Original data:  [99, 22, 10, 30, 90, 77, 65, 1, 88]
+2. Sorted data:  [1, 10, 22, 30, 65, 77, 88, 90, 99]
+3. Binary serach start ...
+列印搜尋串列 :  [1, 10, 22, 30, 65, 77, 88, 90, 99]
+No.1: L0:1 M4:65: , H8:99
+No.2: L0:1 M1:10: , H3:30
+No.3: L0:1 M0:1: , H0:1
+4. 在索引 0 位置找到了,共找了 3 次
+'''
+
+````
+
 ### Q3: 一樣的List, 誰比較快找到最小值, 為什麼? 2022.06.30
+
+> Ans: 在此具有9個Element的List中, Linear Search要4個Steps; 而Bineary Search要3個Steps; 因此, Bineary Search比較快;
+> 此外, 由於在Time Complexity的特性之下, Linear Search is O(n), Bineary Search is O(log(n)); 在List Size越大的情況之下, > Binary Search會有更佳的表現.
+
+![image](https://user-images.githubusercontent.com/89304181/177028404-d345b0b9-2923-4992-b8eb-59f86ac9dbe5.png)
+
 
 [return to content](#000) 
