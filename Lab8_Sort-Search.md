@@ -179,11 +179,79 @@ print("排序結果 : ", merge_sort(data))
 
 > 線性搜尋，又稱為循序搜尋（sequential search），是一個在序列中找尋目標的方法。正如字面上的意義，線性搜尋會按照順序疊代序列，挨家挨戶比對每個元素與目標值是否相等，若相等則停止疊代，並回傳搜尋所得結果。線性搜尋乍看之下，是最簡單實作也最 naïve 的實作，效能應該不怎麼好。事實上，在資料量不多時（少於 100 個元素），線性搜尋的效能也不會太差，但對於資料量大時　＋　＂運氣不好＂，那就要找很久，對吧？。
 
+````python
+# ch10_1.py
+def sequential_search(nLst):
+    for i in range(len(nLst)):
+
+        if nLst[i] == key:      # 找到了
+            return i            # 傳回索引值
+        else:
+          print('在 %d 索引位置找, no found!' % i)
+
+    return -1                   # 找不到傳回-1
+
+data = [19, 32, 28, 99, 10, 88, 62, 8, 6, 3]
+key = eval(input("請輸入搜尋值 : "))
+index = sequential_search(data)
+if index != -1:
+    print("在 %d 索引位置找到了共找了 %d 次" % (index, (index + 1)))
+else:
+    print("查無此搜尋號碼")
+
+````
+### Result
+<img width="169" alt="image" src="https://user-images.githubusercontent.com/89304181/177027154-203385d4-e33b-443e-b087-31eb5ab7743f.png">
+
+![image](https://user-images.githubusercontent.com/89304181/177027154-203385d4-e33b-443e-b087-31eb5ab7743f.png))
+
 ## 4.2 二分搜尋法:
 
 > 取 已排序資料的中間索引的值，來確認是否為要搜尋的數，若不是，則將資料以中間索引分為兩半。此時便比較待搜尋的值與中間索引的值的大小，若比較小，則選擇較小的那一半資料，反之亦然。接著再繼續從一半的資料中取中間索引的值做比較，重複以上的步驟，直到找到為止。
 
+````python
+# ch10_2.py
+def binary_search(nLst):
+    print("列印搜尋串列 : ",nLst)
+    low = 0                     # 串列的最小索引
+    high = len(nLst) - 1        # 串列的最大索引
+    middle = int((high + low) / 2)  # 中間索引
+    times = 0                   # 搜尋次數
+    while True:
+        times += 1
+        print('No.%d: L%d:%d M%d:%d: , H%d:%d' % (times, low,nLst[low], middle,nLst[middle], high, nLst[high]))
 
+        if key == nLst[middle]: # 表示找到了
+            rtn = middle
+            break
+        elif key > nLst[middle]:
+            low = middle + 1    # 下一次往右邊搜尋
+        else:
+            high = middle - 1   # 下依次往左邊搜尋
+        middle = int((high + low) / 2)  # 更新中間索引
+        if low > high:          # 所有元素比較結束
+            rtn = -1
+            break
+    return rtn, times
+
+data = [19, 32, 28, 99, 10, 88, 62, 8, 6, 3]
+print('1. Original data: ', data)
+sorted_data = sorted(data)      # 排序串列
+print('2. Sorted data: ', sorted_data)
+key = int(input("請輸入搜尋值 : "))
+
+print('3. Binary serach start ...')
+index, times = binary_search(sorted_data)
+if index != -1:
+    print("4. 在索引 %d 位置找到了,共找了 %d 次" % (index, times))
+else:
+    print("查無此搜尋號碼")
+
+````
+
+#### Result
+
+![image](https://user-images.githubusercontent.com/55008636/131115066-2349e7f4-28ad-4e71-a5f1-d4e0a70c52a6.png)
 
 ## 5. 挑戰題: 想讓自己變得更強的同學可試試! 
 
