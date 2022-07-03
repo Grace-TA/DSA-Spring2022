@@ -193,7 +193,7 @@ print("排序結果 : ", merge_sort(data))
 
 ## 3. 試說明什麼是搜尋 (Search)? 
 
-![image](https://user-images.githubusercontent.com/89304181/176993084-59d63192-e624-43b2-8530-309e2a9c5686.png)
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176993084-59d63192-e624-43b2-8530-309e2a9c5686.png">
 
 [return to content](#000) 
 
