@@ -251,7 +251,9 @@ else:
 
 #### Result
 
-![image](https://user-images.githubusercontent.com/55008636/131115066-2349e7f4-28ad-4e71-a5f1-d4e0a70c52a6.png)
+<img width="666" alt="image" src="https://user-images.githubusercontent.com/89304181/177027304-3e00ea29-46f4-4409-a764-1ceec4b9c192.png">
+
+
 
 ## 5. 挑戰題: 想讓自己變得更強的同學可試試! 
 
