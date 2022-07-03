@@ -21,19 +21,19 @@ Source: https://zh.wikipedia.org/
 
 ### A. Use 2 for loops
 
-<img width="409" alt="image" src="https://user-images.githubusercontent.com/89304181/176988410-758332b5-88c2-42fa-b802-ac88411bb274.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176988410-758332b5-88c2-42fa-b802-ac88411bb274.png">
 
 ### B. Use Python built-in function (i.e., sort(), short(reverse=True))
 
-<img width="273" alt="image" src="https://user-images.githubusercontent.com/89304181/176988482-02e6f0c1-0c1f-4db3-ae21-20e42d4cb891.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176988482-02e6f0c1-0c1f-4db3-ae21-20e42d4cb891.png">
 
 ### 2.2 選擇排序 (Selection Sort) → Min → Swap
 
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/89304181/176988882-056ed46c-1ba3-4c15-a62b-0d5b86ffd2fe.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176988882-056ed46c-1ba3-4c15-a62b-0d5b86ffd2fe.png">
 
 ### 2.3 插入排序 (Insertion Sort) → 和左邊的數比
 
-<img width="412" alt="image" src="https://user-images.githubusercontent.com/89304181/176989340-434bd802-b270-423e-9890-4baf2b1880a6.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176989340-434bd802-b270-423e-9890-4baf2b1880a6.png">
 
 ### 2.4 Heap Sort (堆積排序法) → tree
 
@@ -90,7 +90,7 @@ for i in range(len(data)):
     sort_h.append(obj.get_min())
 print("排序結果 : ", sort_h)
 ````
-<img width="333" alt="image" src="https://user-images.githubusercontent.com/89304181/176989672-610f15a4-3e55-4d73-8331-b88c7f2c5824.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176989672-610f15a4-3e55-4d73-8331-b88c7f2c5824.png">
 
 ### 2.5 Quick Sort (快速排序) → recursive
 
@@ -122,7 +122,7 @@ print("排序結果 : ", quick_sort(data))
 
 ````
 
-<img width="219" alt="image" src="https://user-images.githubusercontent.com/89304181/176989958-9dc09ad7-a2af-4320-9475-95624d3008f9.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/176989958-9dc09ad7-a2af-4320-9475-95624d3008f9.png">
 
 
 ### 2.6 Merge Sort (合併排序法) → recursive
@@ -201,9 +201,8 @@ else:
 
 ````
 ### Result
-<img width="169" alt="image" src="https://user-images.githubusercontent.com/89304181/177027154-203385d4-e33b-443e-b087-31eb5ab7743f.png">
 
-![image](https://user-images.githubusercontent.com/89304181/177027154-203385d4-e33b-443e-b087-31eb5ab7743f.png))
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/177027154-203385d4-e33b-443e-b087-31eb5ab7743f.png">
 
 ## 4.2 二分搜尋法:
 
@@ -251,7 +250,7 @@ else:
 
 #### Result
 
-<img width="666" alt="image" src="https://user-images.githubusercontent.com/89304181/177027304-3e00ea29-46f4-4409-a764-1ceec4b9c192.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/177027304-3e00ea29-46f4-4409-a764-1ceec4b9c192.png">
 
 
 
