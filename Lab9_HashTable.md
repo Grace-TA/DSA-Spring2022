@@ -13,18 +13,18 @@
 <img width="310" alt="image" src="https://user-images.githubusercontent.com/89304181/178134058-e2ecc826-9831-43ce-89ee-5e0fb3151ca9.png">
 
 ## Ex2: Dictionary - .keys() & .items() 
-<img width="436" alt="image" src="https://user-images.githubusercontent.com/89304181/178134075-46f9b347-4b3e-45fa-b5da-2af57143b918.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134075-46f9b347-4b3e-45fa-b5da-2af57143b918.png">
 
 ## Ex3: Dictionary - Application 
-<img width="218" alt="image" src="https://user-images.githubusercontent.com/89304181/178134082-4ea06b38-6be4-400f-a161-d1181689f4d9.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134082-4ea06b38-6be4-400f-a161-d1181689f4d9.png">
 
 ## Ex4: TypeError: Unicode-objects must be encoded before hashing
 
-<img width="457" alt="image" src="https://user-images.githubusercontent.com/89304181/178134105-64cfc929-4ed5-48cb-8751-fff0a3bd8a63.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134105-64cfc929-4ed5-48cb-8751-fff0a3bd8a63.png">
 
 ## Ex5: 中文字串
 
-<img width="443" alt="image" src="https://user-images.githubusercontent.com/89304181/178134114-56a9b208-bdc2-4497-9048-5527d4a48ad0.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134114-56a9b208-bdc2-4497-9048-5527d4a48ad0.png">
 
 
 ## Lab 9-3 應用實作練習 * 4
@@ -33,13 +33,13 @@
 
 ## Ex6: 比較一下如果是文章加密後Hash Value會不會變長?
 
-<img width="436" alt="image" src="https://user-images.githubusercontent.com/89304181/178134207-2430203f-af51-41a0-bc68-5fdd4d6a2f88.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134207-2430203f-af51-41a0-bc68-5fdd4d6a2f88.png">
 
 ## Ex7: 中文字串
 
-<img width="433" alt="image" src="https://user-images.githubusercontent.com/89304181/178134235-901b2d18-27f0-4ed3-b5a8-60f0925c9ae6.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134235-901b2d18-27f0-4ed3-b5a8-60f0925c9ae6.png">
 
-<img width="449" alt="image" src="https://user-images.githubusercontent.com/89304181/178134242-ea40b933-ee82-468f-af3f-b48ad7349950.png">
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/89304181/178134242-ea40b933-ee82-468f-af3f-b48ad7349950.png">
 
 ## Ex8: 列出此平台可使用的哈希演算法
 
