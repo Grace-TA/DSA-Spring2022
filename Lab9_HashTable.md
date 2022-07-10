@@ -7,7 +7,7 @@
 ![image](https://user-images.githubusercontent.com/89304181/178134035-e9a4fe9e-ac03-45b3-875b-fd692256778f.png)
 
 
-## Lab 9-2 基本實作練習 * 6
+## Lab 9-2 基本實作練習 * 5
 
 ### Ex1: Dictionary - Key & Value
 <img width="310" alt="image" src="https://user-images.githubusercontent.com/89304181/178134058-e2ecc826-9831-43ce-89ee-5e0fb3151ca9.png">
